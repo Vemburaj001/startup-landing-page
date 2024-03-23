@@ -1,0 +1,678 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: fantasy;
+}
+
+body{
+   
+    position: absolute;
+}
+
+#container{
+    background-image: url('10-home-office-wall-decor-ideas-1281.jpg');
+    height: 640px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+.img1{
+    height: 55px;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+
+.center_header{
+    display: flex;
+    list-style-type: none;
+    margin-left: 150px;
+    align-items: center;
+}
+
+.center_header li{
+    padding: 0px 20px;
+}
+
+ul li button:hover{
+   background-color:black;
+}
+
+ul li button{
+    font-size: 17px;
+    margin-left: 80px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color:darkviolet;
+    margin: 10px 0px;
+    margin-left: 90px;
+    color: white;
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+header{
+    background-color: white;
+    width: 1365px;
+   position: sticky;
+   
+}
+
+.box1{
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+}
+
+.box1 button:hover{
+    background-color:black;
+}
+
+.content{
+    margin-top: 20px;
+    text-align: justify;
+    padding: 10px 60px;
+    font-size: 20px;
+    color: rgb(87, 78, 78);
+    line-height: 40px;
+}
+
+.text_box{
+    margin-left: 60px;
+    border: 2px solid darkviolet;
+    border-radius: 5px;
+    width: 380px;
+    padding: 10px 50px;
+}
+
+.text_box img{
+    margin-left: -40px;
+  
+}
+
+select{
+    border: none;
+    width: 300px;
+}
+
+.box1 button{
+    margin-left: 58px;
+    margin-top: 10px;
+    padding: 20px 20px;
+    width:380px;
+    background-color: darkviolet;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+#top_content{
+    margin-left: 300px;
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 100px;
+    word-spacing: 1px;
+    line-height: 40px;
+    font-size: 18px;
+    line-height: 1.68;
+    letter-spacing: -0.5px;
+}
+
+#top_content h6{
+    width: 800px;
+    font-size: 30px;
+    color: rgb(87, 78, 78);
+}
+
+#top_content p{
+    margin-left: -300px;
+    color: rgb(87, 185, 218);
+    margin-bottom: 20px;
+}
+
+.images{
+   margin:  20px 200px;
+   display: flex;
+   justify-content: space-between;
+}
+
+#features{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.title{
+    word-spacing: 2px;
+    line-height: 50px;
+    width: 500px;
+    color: rgb(87, 78, 78);
+}
+
+.boxes{
+    display: flex;
+    margin-top: 70px;
+   margin-left: -20px;
+}
+
+.feature1{
+    width: 200px;
+    padding: 0px 30px;
+    color: rgb(87, 78, 78);
+}
+
+.feature2{
+    width: 200px;
+    padding: 0px 30px;
+    color: rgb(87, 78, 78);
+}
+
+.feature3{
+    width: 200px;
+    padding: 0px 30px;
+    color: rgb(87, 78, 78);
+}
+
+.images_left{
+    margin-left: 600px;
+    margin-top: -470px;
+   
+}
+
+.images_left img{
+    height: 500px;
+    width:500px;
+}
+
+.audio{
+    border: 1px solid darkviolet;
+   margin-top: -470px;
+   background-color: darkviolet;
+   position: absolute;
+   width: 300px;
+   height: 100px;
+   border-radius: 10px;
+   color: white;
+}
+
+.audio img{
+    width: 90px;
+    height: auto;
+    margin-left: -10px;
+}
+
+.audio h3{
+    margin-top: -70px;
+    margin-left: 80px;
+    width: 250px;
+    font-size: 20px;
+}
+
+.audio p{
+    margin-left: 80px;
+    color: rgb(196, 196, 196);
+}
+
+#top_content1{
+    margin-left: 300px;
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 100px;
+    word-spacing: 1px;
+    line-height: 40px;
+    font-size: 18px;
+    line-height: 1.68;
+    letter-spacing: -0.5px;
+}
+
+#top_content1 h6{
+    width: 800px;
+    font-size: 30px;
+    color: rgb(87, 78, 78);
+}
+
+#top_content1 p{
+    margin-left: -300px;
+    color: rgb(87, 185, 218);
+    margin-bottom: 20px;
+}
+
+.all_images{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    position: relative;
+   
+}
+
+.all_images .img1{
+  margin-left: 120px;
+ 
+ 
+}
+
+.all_images .img2{
+   margin-left: -60px;
+}
+
+.all_images .img3{
+  margin-left: -80px;
+}
+
+.all_images .img4{
+    margin-left: 120px;
+}
+
+.all_images .img5{
+    margin-left: -60px;
+    margin-top: 30px;
+}
+
+.all_images .img6{
+    margin-left: -80px;
+}
+
+.img1 span , .img2 span , .img3 span , .img4 span , .img5 span , .img6 span{
+    position: absolute;
+    margin-top: -40px;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.img1 img , .img2 img , .img3 img , .img4 img , .img5 img , .img6 img{
+    box-shadow: 5px 4px 6px -1px black;
+    border-radius: 10px;
+    background-size: cover;
+    transition: all 1.0s;
+}
+
+.all_images .img1:hover{
+     transform: scale(1.1);
+}
+
+.all_images .img2:hover{
+    transform: scale(1.1);
+}
+
+.all_images .img3:hover{
+    transform: scale(1.1);
+}
+
+.all_images .img4:hover{
+    transform: scale(1.1);
+}
+
+.all_images .img5:hover{
+    transform: scale(1.1);
+}
+
+.all_images .img6:hover{
+    transform: scale(1.1);
+}
+
+.explore p{
+    margin-top: 60px;
+    font-size: 20px;
+    margin-left: 120px;
+    border: 0px solid black;
+    border-radius: 10px;
+    width: 1150px;
+    height: 50px;
+    text-align: center;
+    justify-items: center;
+    padding-top: 15px;
+    background-color: darkviolet;
+    cursor: pointer;
+    color: white;
+}
+
+.explore p:hover{
+    background-color: black;
+    transition: all 1.0s;
+}
+
+#pricing{
+    background: #121927;
+    height: 1100px;
+}
+
+.pricing_content{
+   margin-top: 100px;
+    color: aliceblue;
+    padding-top: 80px;
+   text-align: center;
+   line-height: 60px;
+}
+
+.plan{
+    border: 1px solid rgb(160, 154, 154);
+    border-radius: 10px;
+    width: 340px;
+    display: flex;
+    margin-left: 510px;
+    height: 70px;
+}
+
+.month_plan{
+   
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 150px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.month_plan span{
+    position: absolute;
+    margin-top: -5px; 
+   margin-left: -45px;
+}
+
+.annual_plan{
+   
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 150px;
+    height: 50px;
+}
+
+.annual_plan span{
+    position: absolute;
+    margin-top: -5px; 
+    margin-left: -45px;
+}
+
+.month_plan:hover{
+    background-color: white;
+    color: black;
+}
+
+.annual_plan:hover{
+    background-color: white;
+    color: black;
+}
+
+.pack{
+    display: flex;
+}
+
+.starter_pack{
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.pack_box1{
+    border: 1px solid rgb(133, 127, 127);
+    width: 400px;
+    height: 680px;
+    line-height: 20px;
+    color: white;
+    margin-left: 260px;
+    margin-top: 60px;
+    border-radius: 10px;
+}
+
+.starter_pack1 span{
+    position: absolute;
+   text-align: justify;
+}
+
+.starter_pack2 span{
+    position: absolute;
+    text-align: justify;
+}
+
+.starter_pack3 span{
+    position: absolute;
+    text-align: justify;
+}
+
+.starter_pack4 span{
+    position: absolute;
+    text-align: justify;
+    color: rgb(117, 106, 106);
+}
+
+.rate{
+    margin-top: 60px;
+   
+}
+
+.rate p{
+    margin-top: 40px;
+   color:  rgb(117, 106, 106);
+}
+
+.rate img{
+    margin-left: 300px;
+    margin-top: -150px;
+}
+
+
+.family_pack{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.recommended{
+    border: 2px solid darkviolet;
+    border-radius: 5px;
+    color: white;
+    background-color: darkviolet;
+    width: 140px;
+    margin-left: 40px;
+    margin-top: -18px;
+   padding: 5px 15px;
+}
+
+.pack_box2{
+    border: 2px solid white;
+    width: 400px;
+    height: 680px;
+    line-height: 20px;
+    background-color: white;
+    color: black;
+    margin-left: 25px;
+    margin-top: 60px;
+    border-radius: 10px;
+   
+}
+
+.family_pack1 span{
+    position: absolute;
+   text-align: justify;
+}
+
+.family_pack2 span{
+    position: absolute;
+    text-align: justify;
+}
+
+.family_pack3 span{
+    position: absolute;
+    text-align: justify;
+}
+
+.family_pack4 span{
+    position: absolute;
+    text-align: justify;
+}
+
+.pack_box2 .rate{
+    margin-top: 60px;
+    height: 131px;
+}
+
+.pack_box2 .rate h2{
+    color: darkviolet;
+}
+
+.rate img{
+    margin-left: 300px;
+    margin-top: -150px;
+}
+
+.rate hr{
+    margin-left: -53px;
+    width: 400px;
+}
+
+  .happy_customer{
+    margin-top: 200px;
+    margin-left: 100px;
+  }
+
+  .happy_customer{
+    display: flex;
+    width: 1100px;
+  }
+
+  .content span{
+    color: darkviolet;
+  }
+
+/* Here i am starting the styles in BLOG Section */
+  
+
+#blog{
+   margin-top: 50px;
+   background-color: white;
+   height: 680px;
+}
+
+.blog_title{
+   text-align: center;
+   line-height: 50px;
+   font-size: 20px;
+}
+
+.blog_title p{
+    color: darkviolet;
+}
+
+.blog_title h2{
+    font-weight:100;
+}
+
+.blog_boxes{
+    display: flex;
+    margin-left: 120px;
+}
+
+.blog_box1{
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.blog_box2{
+    line-height: 30px;
+   margin-left: 30px;
+   font-size: 20px;
+}
+
+.blog_box3{
+    line-height: 30px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+/* I am using Footer section subscribe i give the styles */
+.subscribe{
+    background: #121927;
+    color: white;
+    height: 550px;
+}
+
+.subscribe_title{
+    text-align: center;
+    padding-top: 100px;
+    line-height: 50px;
+    font-size: 22px;
+    border-radius: 10px;
+    
+}
+
+.subscribe_text_box{
+   margin-left: 400px;
+    margin-top: 60px;
+   width: 400px;
+  
+   
+}
+
+.subscribe_text_box input{
+    width: 400px;
+    height: 60px;
+    padding-left: 20px;
+    border-radius: 5px;
+    background: #121927;
+    color: white;
+}
+
+.subscribe_button{
+    margin-left: 810px;
+    margin-top: -58px;
+    background-color: white;
+    color: black;
+    width: 150px;
+    height: 59px;
+    border-radius: 10px;
+   cursor: pointer;
+}
+
+.subscribe_button span{
+    position: absolute;
+   padding: 8px 24px;
+   margin-top: 14px;
+}
+
+.subscribe hr{
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+
+.footer span{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 28px;
+    color: rgb(184, 176, 176);
+}
+
+.footer ul{
+    margin-left: 800px;
+    margin-top: -35px;
+}
+
+.footer li a{
+   color: white;
+   margin-left: 30px;
+}
+
+.footer a .img1{
+    width: 200px;
+    background-color: white;
+}
+
+.subscribe hr{
+    width: 1115px;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+
+
+
+
+
+
+
